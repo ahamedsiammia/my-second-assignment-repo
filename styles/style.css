@@ -20,6 +20,9 @@
 .display-flex{
   display: flex;
 }
+.section-title-color{
+  color: #E95A08;
+}
 /* sope and about us color */
 .light-gray{
   color: #8987A1;
@@ -50,6 +53,48 @@
 
 .nav-link{
   text-decoration: none;
+}
+/* section part 1 styles */
+.section-container{
+  display:flex;
+  max-width: 1140px;
+  margin:0 auto; 
+  margin-top: 120px;
+  
+
+}
+.section-title{
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+.section-title-drescription{
+  font-size: 1.37rem;
+  
+}
+.container-title{
+  width: 530px;
+}
+
+/* meaida quary responsive */
+@media screen and (max-width:576px) {
+  .section-container{
+    flex-direction: column-reverse;
+  }
+  #nav-opsions{
+    display:none;
+  }
+  .navbar img{
+  width: 60px;
+  }
+  .nav-header{ 
+  margin-left: 16px;
+  margin-right: 16px; 
+}
+/* second part */
+  .section-part1-image{
+    
+  }
 }
 
 
