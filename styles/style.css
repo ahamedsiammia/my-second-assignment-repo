@@ -118,6 +118,13 @@
 }
 
 /* section part 3 flower style */
+.badge{
+  position: absolute;
+  width: 285px;
+  height: 285px;
+  margin-left: 347px;
+  margin-top: -130px;
+}
 .flower-title{
   font-size: 3.12rem;
   font-weight: 700;
@@ -202,6 +209,12 @@
 
 /*          meaida quary responsive           */
 @media screen and (max-width:576px) {
+
+  /* badge hide  start*/
+  .badge{
+    display: none;
+  }
+  /* badge hide close */
   #nav-opsions{
     display:none;
   }
