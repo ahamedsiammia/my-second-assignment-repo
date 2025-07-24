@@ -78,9 +78,6 @@
 
 /* meaida quary responsive */
 @media screen and (max-width:576px) {
-  .section-container{
-    flex-direction: column-reverse;
-  }
   #nav-opsions{
     display:none;
   }
@@ -92,9 +89,35 @@
   margin-right: 16px; 
 }
 /* second part */
-  .section-part1-image{
-    
+ .section-container {
+    flex-direction: column-reverse ;
+    align-items: center; /* center content if needed */
+    padding: 0 20px; /* optional for some spacing */
   }
+
+  .section-part1-image {
+    margin-bottom: 20px; /* space between image and text */
+  }
+
+  .container-title {
+    width: 100%; /* full width on small screens */
+  }
+
+  .section-title {
+    font-size: 2.2rem; /* smaller title for small screen */
+  }
+
+  .section-title-drescription {
+    font-size: 1rem; /* adjust for better readability */
+  }
+
+  .section-part1-image img {
+    width: 100%; /* make image responsive */
+    height: auto;
+  }
+
+
+
 }
 
 
