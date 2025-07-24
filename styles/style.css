@@ -206,6 +206,44 @@
     color:#FFFFFF;
   font-size: 2.25rem;
 }
+/* Subscribe Section */
+.subscribe-section {
+  background: url("../B12A02-Responsive-Flowers/assets/news-letter-bg.png") center/cover;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  height: 533px;
+}
+
+.subscribe-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  max-width:830px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.subscribe-box input {
+  padding: 10px;
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+}
+
+.subscribe-box button {
+  background:#E95A08;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0 20px;
+  cursor:pointer;
+}
 
 /*          meaida quary responsive           */
 @media screen and (max-width:576px) {
@@ -318,6 +356,34 @@
       align-items: center;
       margin-top: 20px;
     }
+
+
+/* subscribe section */
+  .subscribe-section {
+    height: auto;
+    padding: 40px 15px;
+  }
+
+  .subscribe-section h2 {
+    font: size 3.12rem;;
+  }
+
+  .subscribe-box {
+    flex-direction: row;
+    align-items: center;
+    gap: 0; 
+  }
+
+  .subscribe-box input {
+    flex: 1;
+    font-size: 1rem;
+  }
+
+  .subscribe-box button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    white-space: nowrap;
+  } 
  
 }
 
