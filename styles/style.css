@@ -75,6 +75,40 @@
 .container-title{
   width: 530px;
 }
+/* section part 2 card related style */
+.crad-section{
+  margin-top: 120px;
+}
+.card-header{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.btn-primary{
+  border: none;
+  background-color: #E95A08;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 19px 80px;
+  /* text-align: center; */
+}
+.card-container{
+  max-width:1140px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.card-title{
+  font-size: 1.37rem;
+  font-weight: 400;
+}
+.money{
+  font-weight: 700;
+}
 
 /* meaida quary responsive */
 @media screen and (max-width:576px) {
@@ -115,9 +149,30 @@
     width: 100%; /* make image responsive */
     height: auto;
   }
+  /* section part2 card related */
+    .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10px;
+    gap: 20px;
+  }
 
+  .btn-primary {
+    padding: 12px 30px;
+    font-size: 0.9rem;
+  }
 
+  .card-title {
+    font-size: 1.1rem;
+  }
 
+  .card-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-container div {
+    padding: 10px;
+  }
 }
 
 
