@@ -144,6 +144,62 @@
   text-align: center;
 }
 
+/* offer section style */
+.offer-section{
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 28px;
+}
+.left-offer img{
+  border-radius: 14px;
+  
+}
+.right-offer img{
+  border-radius: 22px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.card-add{
+  border-bottom: 2px solid #FFFFFF;
+  font-size: 1.19rem;
+  font-weight: 600;
+}
+.card-adding{
+  font-size: 1.75rem;
+  font-weight: 600;
+  border-bottom: 2px solid #FFFFFF;
+}
+.card{
+  display: flex;
+  width: 367px;
+  align-items: center;
+  text-align: center;
+  margin: 25px;
+  border-radius: 14px;
+  justify-content: center;
+  
+}
+.card h5{
+  color:#FFFFFF;
+  position: absolute;
+  font-size: 1.35rem;
+  font-weight: 700;
+
+}
+.right-offer {
+  display: flex; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.right-offer h4{
+  position: absolute;
+    color:#FFFFFF;
+  font-size: 2.25rem;
+}
+
 /*          meaida quary responsive           */
 @media screen and (max-width:576px) {
   #nav-opsions{
@@ -235,6 +291,20 @@
     font-size: 1rem;
     text-align: left;       
   }
+
+  /* offer section responcive */
+    .right-offer,
+    .card,
+    .offer-section{
+      flex-direction: column;
+    }
+    .right-offer img{
+      width: 100%;
+    }
+    .offer-section{
+      align-items: center;
+      margin-top: 20px;
+    }
  
 }
 
