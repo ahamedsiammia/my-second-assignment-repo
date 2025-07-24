@@ -70,6 +70,7 @@
 }
 .section-title-drescription{
   font-size: 1.37rem;
+  margin-top: 13px;
   
 }
 .container-title{
@@ -126,6 +127,7 @@
   max-width: 1140px;
   margin: 0 auto;
   gap: 60px;
+  margin-bottom: 130px;
 }
 .flower h3,li{
   margin-bottom: 20px;
@@ -135,7 +137,14 @@
   max-width: 540px;
 }
 
-/* meaida quary responsive */
+/* text-section style  */
+.text-section{
+  max-width: 1440px;
+   margin: 0 auto;
+  text-align: center;
+}
+
+/*          meaida quary responsive           */
 @media screen and (max-width:576px) {
   #nav-opsions{
     display:none;
@@ -150,28 +159,28 @@
 /* second part */
  .section-container {
     flex-direction: column-reverse ;
-    align-items: center; /* center content if needed */
-    padding: 0 20px; /* optional for some spacing */
+    align-items: center; 
+    padding: 0 20px; 
   }
 
   .section-part1-image {
-    margin-bottom: 20px; /* space between image and text */
+    margin-bottom: 20px; 
   }
 
   .container-title {
-    width: 100%; /* full width on small screens */
+    width: 100%; 
   }
 
   .section-title {
-    font-size: 2.2rem; /* smaller title for small screen */
+    font-size: 2.2rem; 
   }
 
   .section-title-drescription {
-    font-size: 1rem; /* adjust for better readability */
+    font-size: 1rem; 
   }
 
   .section-part1-image img {
-    width: 100%; /* make image responsive */
+    width: 100%; 
     height: auto;
   }
   /* section part2 card related */
@@ -204,27 +213,27 @@
   }
   /* section part 3 flower style */
     .flower {
-    flex-direction: column; /* side by side er bodole ek line kore ashbe */
-    padding: 0 20px;         /* edge theke kichu gap thakbe */
-    text-align: center;      /* text center e dekhabe (optional) */
+    flex-direction: column; 
+    padding: 0 20px;         
+    text-align: center;      
   }
 
   .flower-title {
-    max-width: 100%;         /* full width nibe jate small screen e adjust hoy */
+    max-width: 100%;        
   }
 
   .flower img {
-    width: 100%;             /* image responsive hobe */
+    width: 100%;            
     height: auto;
   }
 
   .flower-title h3 {
-    font-size: 2rem;         /* chhoto screen e title chhoto korte pari */
+    font-size: 1.5rem;        
   }
 
   .flower-title li {
     font-size: 1rem;
-    text-align: left;        /* list gulo left-align thakle better lage */
+    text-align: left;       
   }
  
 }
